@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_portfolio/Screens/intro_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,22 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: "Responsive-Portfolio",
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: Center(
-          child: Text(
-            "I'll start again after my exams\n Exams time:)",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 25.5,
-              fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.italic,
-            ),
-          ),
-        ),
+      theme: ThemeData(
+        primarySwatch: Colors.red,
       ),
+      home: IntroScreen(),
     );
   }
 }
