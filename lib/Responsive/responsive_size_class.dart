@@ -1,6 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import "package:flutter/cupertino.dart";
 
-class ResponsiveSize {
+class ResponsiveSizeClass {
   ///isMobile
   static bool isMobile(BuildContext context) {
     return MediaQuery.of(context).size.width < 690;
