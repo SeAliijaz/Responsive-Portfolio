@@ -16,6 +16,7 @@ class Knowledges extends StatelessWidget {
           "Knowledge",
           style: Theme.of(context).textTheme.subtitle2,
         ),
+        SizedBox(height: defaultPadding / 2),
         const KnowledgeText(text: "Flutter"),
         const KnowledgeText(text: "Dart"),
         const KnowledgeText(text: "Firebase"),

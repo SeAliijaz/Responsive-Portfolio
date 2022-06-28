@@ -17,7 +17,10 @@ class SideMenu extends StatelessWidget {
     return Drawer(
       child: Column(
         children: [
+          ///My Info
           const MyInfo(),
+
+          ///Area Info
           Expanded(
               child: SingleChildScrollView(
             padding: const EdgeInsets.all(defaultPadding),
@@ -35,40 +38,66 @@ class SideMenu extends StatelessWidget {
                   title: "Age",
                   text: "19",
                 ),
+
+                ///Skills
                 const Skills(),
                 const SizedBox(height: defaultPadding),
+
+                ///Coding %
                 const Coding(),
+
+                ///Knowledge about coding/languages
                 const Knowledges(),
+
+                ///Divider
                 const Divider(),
+                SizedBox(height: defaultPadding / 2),
+
+                ///Bottom
                 TextButton(
                   onPressed: () {},
                   child: FittedBox(
                     child: Row(
                       children: [
                         Text("DOWNLOAD CV",
-                            style: Theme.of(context).textTheme.subtitle2),
+                            style: TextStyle(
+                                color: Theme.of(context)
+                                    .textTheme
+                                    .bodyText1!
+                                    .color)),
                         const SizedBox(
                           width: defaultPadding / 2,
                         ),
-                        SvgPicture.asset("assets/icon/download.svg"),
+                        SvgPicture.asset("assets/icons/download.svg"),
                       ],
                     ),
                   ),
                 ),
+
                 Container(
-                  margin: const EdgeInsets.only(top: defaultPadding),
-                  color: const Color(0xff24242E),
-                  child: FittedBox(
-                    child: Row(
-                      children: [
-                        const Spacer(),
-                        SvgPicture.asset("assets/icons/linkedin.svg"),
-                        SvgPicture.asset("assets/icons/github.svg"),
-                        SvgPicture.asset("assets/icons/twitter.svg"),
-                        SvgPicture.asset("assets/icons/dribble.svg"),
-                        const Spacer(),
-                      ],
-                    ),
+                  color: Color(0xff24242E),
+                  margin: EdgeInsets.only(top: defaultPadding),
+                  child: Row(
+                    children: [
+                      Spacer(),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/linkedin.svg"),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/github.svg"),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/twitter.svg"),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: SvgPicture.asset("assets/icons/dribble.svg"),
+                      ),
+                      Spacer(),
+                    ],
                   ),
                 ),
               ],

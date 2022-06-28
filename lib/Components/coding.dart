@@ -9,35 +9,32 @@ class Coding extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: defaultPadding),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const Divider(),
-          Text(
-            "Coding",
-            style: Theme.of(context).textTheme.subtitle2,
-          ),
-          SizedBox(height: 10),
-          AnimatedLinearProgessIndicator(
-            label: "Flutter",
-            percentage: 0.8,
-          ),
-          AnimatedLinearProgessIndicator(
-            label: "Dart",
-            percentage: 0.7,
-          ),
-          AnimatedLinearProgessIndicator(
-            label: "C/C++",
-            percentage: 0.55,
-          ),
-          AnimatedLinearProgessIndicator(
-            label: "MySQL",
-            percentage: 0.6,
-          ),
-        ],
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        const Divider(),
+        Text(
+          "Coding",
+          style: Theme.of(context).textTheme.subtitle2,
+        ),
+        SizedBox(height: defaultPadding / 2),
+        AnimatedLinearProgessIndicator(
+          label: "Flutter",
+          percentage: 0.8,
+        ),
+        AnimatedLinearProgessIndicator(
+          label: "Dart",
+          percentage: 0.7,
+        ),
+        AnimatedLinearProgessIndicator(
+          label: "C/C++",
+          percentage: 0.55,
+        ),
+        AnimatedLinearProgessIndicator(
+          label: "MySQL",
+          percentage: 0.6,
+        ),
+      ],
     );
   }
 }

@@ -24,9 +24,11 @@ class MyInfo extends StatelessWidget {
             Spacer(),
             Text(
               "Muhammad Ali",
+              overflow: TextOverflow.ellipsis,
               style: Theme.of(context).textTheme.subtitle2,
             ),
             Text("Flutter Developer (Android & IOS)",
+                overflow: TextOverflow.ellipsis,
                 style: TextStyle(
                   height: 1.5,
                   fontWeight: FontWeight.w200,
