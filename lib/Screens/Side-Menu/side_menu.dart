@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:responsive_portfolio/Components/area_info_text.dart';
-import 'package:responsive_portfolio/Components/coding.dart';
-import 'package:responsive_portfolio/Components/knowledges.dart';
-import 'package:responsive_portfolio/Components/skills.dart';
+import 'package:responsive_portfolio/Components/Area-Info/area_info_text.dart';
+import 'package:responsive_portfolio/Components/Coding/coding.dart';
+import 'package:responsive_portfolio/Components/Knowledges/knowledges.dart';
+import 'package:responsive_portfolio/Components/Skills/skills.dart';
 import 'package:responsive_portfolio/Constants/constants.dart';
-import 'package:responsive_portfolio/Components/my_info.dart';
+import 'package:responsive_portfolio/Components/My_Info/my_info.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_portfolio/Responsive/responsive_size_class.dart';
-import 'package:responsive_portfolio/Screens/Components_Home/animated_counter.dart';
-import 'package:responsive_portfolio/Screens/Components_Home/heigh_light.dart';
+import 'package:responsive_portfolio/Screens/Components_Home/Animated-Counter/animated_counter.dart';
+import 'package:responsive_portfolio/Screens/Components_Home/Heigh_Light/heigh_light.dart';
 
-import '../../Constants/constants.dart';
+import '../../../Constants/constants.dart';
 
 class HeighLightInfo extends StatelessWidget {
   const HeighLightInfo({
