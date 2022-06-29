@@ -1,9 +1,4 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:responsive_portfolio/Constants/constants.dart';
-import 'package:responsive_portfolio/Models/project_model.dart';
-import 'package:responsive_portfolio/Models/recommendation_model.dart';
 import 'package:responsive_portfolio/Screens/Components_Home/heigh_light_info.dart';
 import 'package:responsive_portfolio/Screens/Components_Home/home_banner.dart';
 import 'package:responsive_portfolio/Screens/Components_Home/my_projects_cards.dart';

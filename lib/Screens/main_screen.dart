@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_portfolio/Constants/constants.dart';
 import 'package:responsive_portfolio/Responsive/responsive_size_class.dart';
-import 'package:responsive_portfolio/Widgets/custom_drawer.dart';
+import 'package:responsive_portfolio/Widgets/side_menu.dart';
 
 class MainScreeen extends StatelessWidget {
   const MainScreeen({Key? key, required this.children}) : super(key: key);

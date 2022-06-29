@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_portfolio/Constants/constants.dart';
 import 'package:responsive_portfolio/Models/recommendation_model.dart';
+import 'package:responsive_portfolio/Responsive/responsive_size_class.dart';
 
 class RecommendationCards extends StatelessWidget {
   const RecommendationCards({
@@ -13,10 +14,8 @@ class RecommendationCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 250,
-      width: 300,
-      padding: EdgeInsets.all(defaultPadding),
-      color: secondaryColor,
+      height: Responsive.isMobile(context) ? 250 : 250,
+      width: Responsive.isMobile(context) ? 400 : 300,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
