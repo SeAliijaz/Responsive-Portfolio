@@ -15,7 +15,7 @@ class MainScreeen extends StatelessWidget {
           ? null
           : AppBar(
               backgroundColor: bgColor,
-              leading: Builder(builder: (c) {
+              leading: Builder(builder: (context) {
                 return IconButton(
                   onPressed: () {
                     Scaffold.of(context).openDrawer();
