@@ -41,4 +41,10 @@ final List<RecommendationModel> demoRecommendationModel = [
     text:
         "It was a pleasure of working with Ali ijaz for the past 2 years at Wisdom IT Solution. During this time, we worked together on multiple projects.He has a very impressive background and profile and I recommend Ali ijaz as an expert to connect with and consider for anything appropriate.",
   ),
+  RecommendationModel(
+    name: "Patrick Beiano",
+    source: "LinkedIn",
+    text:
+        "Ali ijaz worked with me at Whitehats and was one of our first employees. Ali ijaz is a positive and amiable individual and was well liked by his colleagues. He's a hard worker and will always go the extra mile when required.",
+  ),
 ];

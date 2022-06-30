@@ -14,8 +14,10 @@ class RecommendationCards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: Responsive.isMobile(context) ? 250 : 250,
-      width: Responsive.isMobile(context) ? 400 : 300,
+      height: Responsive.isDesktop(context) ? 250 : 250,
+      width: Responsive.isDesktop(context) ? 400 : 300,
+      color: secondaryColor,
+      padding: EdgeInsets.all(defaultPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

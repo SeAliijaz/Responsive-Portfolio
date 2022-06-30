@@ -8,7 +8,7 @@ List<ProjectModel> demoProjectModel = [
   ProjectModel(
     title: "Responsive Admin Panel or Dashboard - Flutter UI",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info.",
+        "On Flutter V3.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info.",
   ),
   ProjectModel(
     title: "E-Commerce Complate App - Flutter UI",

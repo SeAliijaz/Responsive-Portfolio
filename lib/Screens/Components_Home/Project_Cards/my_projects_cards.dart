@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_portfolio/Constants/constants.dart';
 import 'package:responsive_portfolio/Models/project_model.dart';
 import 'package:responsive_portfolio/Responsive/responsive_size_class.dart';
-import 'package:responsive_portfolio/Screens/Components_Home/Models%20&%20Cards/project_cards.dart';
+import 'package:responsive_portfolio/Screens/Components_Home/Project_Cards/project_cards.dart';
 
 class MyProjectsCards extends StatelessWidget {
   const MyProjectsCards({

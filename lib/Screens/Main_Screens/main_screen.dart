@@ -3,8 +3,8 @@ import 'package:responsive_portfolio/Constants/constants.dart';
 import 'package:responsive_portfolio/Responsive/responsive_size_class.dart';
 import 'package:responsive_portfolio/Screens/Side-Menu/side_menu.dart';
 
-class MainScreeen extends StatelessWidget {
-  const MainScreeen({Key? key, required this.children}) : super(key: key);
+class MainScreen extends StatelessWidget {
+  const MainScreen({Key? key, required this.children}) : super(key: key);
 
   final List<Widget> children;
 
