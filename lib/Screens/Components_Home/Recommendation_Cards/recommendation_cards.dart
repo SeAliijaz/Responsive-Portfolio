@@ -17,7 +17,7 @@ class RecommendationCards extends StatelessWidget {
       height: Responsive.isDesktop(context) ? 250 : 250,
       width: Responsive.isDesktop(context) ? 400 : 300,
       color: secondaryColor,
-      padding: EdgeInsets.all(defaultPadding),
+      padding: EdgeInsets.all(defaultPadding / 2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

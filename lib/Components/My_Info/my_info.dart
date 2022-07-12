@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_portfolio/Constants/constants.dart';
 
@@ -12,14 +11,14 @@ class MyInfo extends StatelessWidget {
     return AspectRatio(
       aspectRatio: 1.23,
       child: Container(
-        color: Color(0xff242430),
+        color: secondaryColor,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Spacer(flex: 2),
             CircleAvatar(
               radius: 50,
-              backgroundImage: CachedNetworkImageProvider(myDp),
+              backgroundImage: AssetImage("assets/images/my_pic.jpg"),
             ),
             Spacer(),
             Text(
