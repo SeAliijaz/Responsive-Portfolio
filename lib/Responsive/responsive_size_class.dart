@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+///Using this to make responsive for web and app
 class Responsive extends StatelessWidget {
   final Widget mobile;
   final Widget? mobileLarge;
@@ -40,3 +41,28 @@ class Responsive extends StatelessWidget {
     }
   }
 }
+//////// OR YOU CAN USE THIS TO MAKE RESPONSIVE ///////////////////s
+
+// class ResponsiveSize {
+//   ///isMobile
+//   static bool isMobile(BuildContext context) {
+//     return MediaQuery.of(context).size.width < 690;
+//   }
+
+//   ///isTablet
+//   static bool isTablet(BuildContext context) {
+//     return MediaQuery.of(context).size.width < 850 &&
+//         MediaQuery.of(context).size.width >= 690;
+//   }
+
+//   ///isDesktop
+//   static bool isDesktop(BuildContext context) {
+//     return MediaQuery.of(context).size.width < 1500 &&
+//         MediaQuery.of(context).size.width >= 850;
+//   }
+
+//   ///IsWideDesktop
+//   static bool isWideDesktop(BuildContext context) {
+//     return MediaQuery.of(context).size.width >= 1500;
+//   }
+// }

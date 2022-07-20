@@ -9,12 +9,12 @@ class Footer extends StatelessWidget {
     final Size s = MediaQuery.of(context).size;
 
     return Container(
-      height: Responsive.isMobile(context) ? 120 : 180,
+      height: Responsive.isMobile(context) ? 120 : 300,
       width: s.width,
       child: Column(
         mainAxisAlignment: Responsive.isMobile(context)
             ? MainAxisAlignment.end
-            : MainAxisAlignment.end,
+            : MainAxisAlignment.center,
         children: [
           ///FooterIcons
           Responsive.isMobile(context) ? SizedBox() : FooterIcons(),
